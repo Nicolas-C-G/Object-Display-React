@@ -78,7 +78,7 @@ function App() {
   return (
     <div className="App">
       <div>
-        <h1>Hello</h1>
+        <h1>Simple 3D objects display</h1>
         <Canvas shadows dpr={[1, 2]} camera={{position: [0,0,50], fov: 10}} style={{ height: "50vh"}}>
           <ambientLight intensity={0.5}></ambientLight>
           <spotLight position={[10,10,10]}/>
